@@ -1,0 +1,88 @@
+/* Global Styles */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+#app {
+    background-color: whitesmoke;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+}
+
+/* Input Bar */
+input[type="text"] {
+    font-size: 14px;
+    width: 70%;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Add Button */
+#add-btn {
+    background-color: #33b249;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Item Container */
+.item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* List Item */
+ul {
+    background-color: lavender;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    transform: scale(0.8);
+    margin-right: 8px;
+}
+
+li {
+    flex: 1;
+    font-size: 14px;
+    list-style: none;
+    margin-left: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #555;
+}
+
+/* Remove Button */
+.removeBtn {
+    background-color: orangered;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
